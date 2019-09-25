@@ -101,8 +101,8 @@
 //    _mainBtn.titleEdgeInsets    = UIEdgeInsetsMake(0, 0, 0, 0);
     _mainBtn.imageEdgeInsets    = UIEdgeInsetsMake(0, 60, 0, 0);
     _mainBtn.selected           = NO;
-    _mainBtn.backgroundColor    = [UIColor grayColor];
-    _mainBtn.layer.borderColor  = [UIColor blackColor].CGColor;
+    _mainBtn.backgroundColor    = [UIColor clearColor];
+    _mainBtn.layer.borderColor  = [UIColor clearColor].CGColor;
     _mainBtn.layer.borderWidth  = 0;
 
     [self addSubview:_mainBtn];
@@ -230,7 +230,7 @@
         cell.textLabel.font          = Font(16);
         cell.textLabel.textColor     = [UIColor blackColor];
         cell.selectionStyle          = UITableViewCellSelectionStyleNone;
-        cell.backgroundColor         = [UIColor grayColor];
+        cell.backgroundColor         = [UIColor lightGrayColor];
         
         UIView * line = [[UIView alloc] initWithFrame:CGRectMake(0, _rowHeight -0.5, VIEW_WIDTH(cell), 0.5)];
         line.backgroundColor = [UIColor grayColor];

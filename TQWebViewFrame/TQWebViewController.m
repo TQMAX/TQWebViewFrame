@@ -90,7 +90,7 @@
     if (_type == foundationType || _type == withTopBtnType ) {
         self.whiteNav = NO;
         _topBtnColor = [UIColor whiteColor];
-        _topBgColor = [UIColor grayColor];
+        _topBgColor = [UIColor lightGrayColor];
         _backImgName = @"homepageBackImage";
         _moreImgName = @"whiteMore";
     }else if (_type == foundationWhiteBgType || _type == withTopBtnWhiteBgType){
